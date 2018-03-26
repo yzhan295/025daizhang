@@ -1,0 +1,142 @@
+body{
+	background-color: #f5f5f5;
+}
+.wrapper{
+	width:1180px;margin: 0 auto;
+}
+
+.h-video{
+	position: relative;height:860px;
+}
+.h-video .b-img{
+	display: block;height:860px;margin: 0 auto; position:absolute; top:1px;
+}
+.h-video .mask{
+	height: 834px;position: absolute;left:0px;right:0px;
+	bottom: 0;background: url("../imgs/mask.png") no-repeat center center;
+}
+.h-video .video{
+	position: absolute;top:190px;left:50%;margin-left: -590px;
+}
+.h-video .video .txt{
+	margin-top:30px;
+}
+.h-video .video .txt h2{
+	font-size: 30px;color:#e4e4e4;line-height: 42px;
+}
+.h-video .video .txt p{
+	color:#999;line-height: 42px;font-size: 18px;
+}
+.h-container{
+	height: auto;overflow: hidden;margin: 40px auto;
+}
+.h-tabel{
+	padding:20px 40px 25px;background-color: #fff;
+	float:left;width: 700px;
+}
+.h-tabel .hd{
+	height:60px;border-bottom: 1px solid #E7E7E7;
+}
+.h-tabel .hd ul{
+	height: auto;overflow: hidden;
+}
+.h-tabel .hd li{
+	float:left;line-height:60px;font-size:24px;color:#999;
+	margin-right: 30px;cursor: pointer;position: relative;top:-3px;
+}
+.h-tabel .hd li.selected,
+.h-tabel .hd li:hover{
+	color:#222;border-bottom: 3px solid #f04c53;
+}
+.h-tabel .bd li a{
+	height:40px;display: block;
+}
+.h-tabel .bd li a p{
+	line-height:40px;font-size:16px;color:#333;
+}
+.h-tabel .bd li:hover a p{
+	color:#F04C53;
+}
+.h-tabel .bd li a p span{
+	color:#999;
+}
+.h-tabel .bd li a p span.line{
+	width: 1px;height: 14px;background-color: #D5D5D5;
+	display:inline-block;margin: 0 15px;
+}
+.ui-head{
+	background-color: #fff;margin:12px 0px 17px;
+}
+.ui-head a{
+	padding: 27px 0px 20px 30px;display: block;
+}
+.ui-head h2{
+	font-size:20px;line-height:36px;color:#333;
+}
+.ui-head p{
+	font-size: 14px;color:#999;
+}
+.h-container{
+	min-height: 670px;
+}
+.h-join{
+	margin-bottom: 25px;
+}
+.h-join ul{
+	height: auto;overflow: hidden;width: 105%;
+}
+.h-join li{
+	float:left;margin-right: 20px;overflow: hidden;
+}
+.h-join li img{
+	width: 220px;height: 150px;display: block;transition: all 0.3s;
+}
+.h-join li img:hover{
+	transform: scale(1.2);
+}
+.h-honer{
+	float:right;width: 300px;padding: 40px 40px 20px;background-color: #fff;
+}
+.h-honer .hd{
+	padding-bottom: 15px;border-bottom:1px dashed #d5d5d5;margin-bottom: 20px;
+}
+.h-honer .hd p{
+	font-size: 18px;color:#333;line-height: 24px;margin-top: 8px;
+}
+.h-honer li{
+	margin-bottom: 20px;
+}
+.h-honer li a{
+	width: 300px;height: 110px;display: block;
+	background-color: #D5E4F3;
+}
+.h-honer li.last a{
+	background-color: #FAD5D6;
+}
+.h-honer li:hover a{
+	background-color: #B7D1EB;
+}
+.h-honer li.last:hover a{
+	background-color: #F2BFC0;
+}
+.h-honer li a img{
+	float:left;width: 88px;height: 110px;display: block;
+}
+.h-honer li a .txt{
+	float:left;width: 212px;margin-top: 25px;
+}
+.h-honer li a .txt h2,
+.h-honer li a .txt p{
+	font-size: 24px;color:#205aa9;line-height: 30px;
+}
+.h-honer li a .txt p{
+	font-size: 16px;
+}
+.h-honer li.last a .txt h2,
+.h-honer li.last a .txt p{
+	font-size: 24px;color:#f04c53;line-height: 30px;
+}
+.h-honer li.last a .txt p{
+	font-size: 16px;
+}
+

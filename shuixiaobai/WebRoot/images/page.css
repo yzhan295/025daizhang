@@ -1,0 +1,87 @@
+@charset "utf-8";
+/*****************全屏图片公用**********************/
+body{
+    background: none;
+}
+
+
+
+.banner{ height:510px;  }
+
+
+
+.gsjj{ padding-top:20px; padding-bottom:20px;}
+
+.gsjjzj{ width:1180px; height:50px;  margin:0 auto; background:#FFF; }
+ 
+.gsjjzj a{ display:inline-block; width:125px; border-left:1px solid #ebedee; height:50px; line-height:50px; color:#444444; font-size:16px; text-align:center}
+
+.gsjjzj .cur{ background:#f33933; color:#FFF}
+
+.gsjjzj a:hover{  background:#f33933; color:#FFF}
+
+
+
+/*公司简介*/
+
+
+.gspic img{ float:left}
+
+.gspic .gspic1{ margin-right:20px;}
+
+.gspic .gspic3{ float:right}
+
+
+.gscontent{ color:#666666; line-height:2em; font-size:14px; margin-top:34px; margin-bottom:78px;}
+
+
+/*服务理念*/
+
+.fwcontent{ color:#666666; font-size:14px; line-height:2em; margin-bottom:20px;}
+
+.fwcontent p{ margin-bottom:20px;}
+
+.kuanz{ margin-bottom:80px;}
+
+.kuanz ul li{ float:left; width:360px; height:196px; background:#FFF; margin-left:50px; border-bottom:1px solid #f0f0f0; text-align:center}
+
+.kuanz ul li:first-child{ margin-left:0px;}
+
+.kuanz ul li span{ display:inline-block; width:80px; height:80px; text-align:center; line-height:80px; color:#FFF; font-size:20px; font-weight:bold; background:#56aedc; margin-top:28px; -moz-border-radius: 50%;      /* Gecko browsers */
+    -webkit-border-radius: 50%;   /* Webkit browsers */
+    border-radius:50%;  }
+	
+.kuanz ul li P{ padding-left:60px; padding-right:60px; text-align:center; margin-top:15px; color:#777777; font-size:14px; line-height:1.8em;}	
+
+/*企业责任*/
+
+.zeren{ margin-bottom:70px;}
+
+.zepic{ float:left; width:394px; height:218px; }
+
+.zewenzi{ float:right; width:769px; height:218px; color:#666666; font-size:14px; line-height:1.6em;}
+
+/*未来展望*/
+.zhanw h1{ padding-bottom:15px;}
+
+
+.zhpp{ color:#777777; font-size:14px; text-align:center; margin-bottom:50px;}
+.zhwang{ margin-bottom:76px;}
+.zhwang ul li{ float:left; width:360px; height:330px; background:#FFF; margin-left:50px; border-bottom:1px solid #f0f0f0;}
+
+.zhwang ul li:first-child{ margin-left:0px;}
+.zhwang ul li .zpic{ height:148px; position:relative; width:360px;}
+
+.yewugui{ position:absolute; z-index:2; width:140px; height:40px; line-height:40px; color:#FFF; text-align:center; font-size:20px; left:20px; top:20px; background:#56aedc;}
+.zhwang ul li p{ padding:20px; line-height:1.8em; color:#666666; font-size:14px;}
+
+.h80{ height:80px;}
+
+
+
+
+
+
+
+
+

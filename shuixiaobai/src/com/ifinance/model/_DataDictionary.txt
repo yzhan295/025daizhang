@@ -1,0 +1,15 @@
+Table: news
+------------+----------------------+------+-----+---------+---------
+ Field      | Type                 | Null | Key | Default | Remarks 
+------------+----------------------+------+-----+---------+---------
+ id         | INT(10)              | NO   | PRI |         |         
+ title      | VARCHAR(1000)        | NO   |     |         |         
+ smallImage | VARCHAR(200)         | YES  |     |         |         
+ shortDesc  | VARCHAR(500)         | YES  |     |         |         
+ content    | LONGTEXT(2147483647) | NO   |     |         |         
+ author     | VARCHAR(100)         | YES  |     |         |         
+ type       | INT(10)              | NO   |     | 0       | 0: 资讯 1:税务 2:常见问题
+ createTime | DATETIME(19)         | NO   |     |         |         
+ updateTime | DATETIME(19)         | NO   |     |         |         
+------------+----------------------+------+-----+---------+---------
+

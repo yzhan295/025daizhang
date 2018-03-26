@@ -1,0 +1,122 @@
+   
+
+
+		
+   
+   .xf{position:fixed;bottom:0;_position:absolute;_top:expression(documentElement.scrollTop+documentElement.clientHeight-this.offsetHeight);right:5px;width:95px;box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box; }
+        .xf ul{width:70px;height:364px;margin-bottom:40px;box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;}
+        .xf li{width:100%;height:70px; background:#FFF; border:1px solid #e5e5e5;  -moz-border-radius: 5px;      /* Gecko browsers */
+    -webkit-border-radius: 5px;   /* Webkit browsers */
+    border-radius:5px; position:relative;            box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;}
+        .xf li a{ display:block;width:100%;padding-top:40px; text-align:center; color:#666666; font-size:14px; cursor:pointer;box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;}
+		
+	
+
+        .xf li.li1{background:url("xf_icon1.gif") no-repeat center 16px #FFF;box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box; position:relative}
+	
+	.kefutell {
+    position: absolute;
+    left: -187px;
+    top: -60px;
+	text-align:center;
+	display:none;
+   
+    width: 177px;
+    height: 198px;
+    background-color: #fff;
+    border: 1px solid #D7D7D7;
+}
+
+
+.kefutell p {
+    width: 155px;
+
+    text-align: center;
+	font-size:14px;
+    margin-left: 10px;
+}
+
+.kefutell i {
+    width: 8px;
+    height: 15px;
+    position: absolute;
+    top: 85px;
+    right: -8px;
+    background-image: url("trangle-right-suspension.png");
+    background-repeat: no-repeat;
+}
+
+	
+	
+	.xf li.li1:hover{ background:url("xf_icon1h.gif") no-repeat center 16px #e84649; border:1px solid #e84649}
+	
+	.xf li.li1:hover a{ color:#FFF}
+      
+        .xf li.li2{background:url("xf_icon3.gif") no-repeat center 12px #FFF;}
+		
+		  .xf li.li2:hover{background:url("xf_icon3h.gif") no-repeat center 12px #e84649; border:1px solid #e84649}
+		  .xf li.li2:hover a{ color:#FFF}
+		  
+     
+        .xf li.li3{background:url("xf_ico5.gif") no-repeat center 12px #FFF;width:100%; text-align:center; cursor:pointer; position:relative;}
+		
+			  .xf li.li3:hover{background:url("xf_ico5h.gif") no-repeat center 12px #e84649; border:1px solid #e84649}
+			  
+			    .xf li.li3:hover a{ color:#FFF}
+      
+        .xf li.li5{background:url("xf_im1.gif") no-repeat center 12px #FFF; }
+		
+		.xf li.li5:hover{ background:url("xf_im1h.gif") no-repeat center 12px #e84649; border:1px solid #e84649}
+		
+		.xf li.li5:hover a{ color:#FFF}
+      
+        .xf li.li6{background:url("xf_ico11.gif") no-repeat center 18px #FFF;}
+     	.xf li.li6:hover{ background:url("xf_ico11h.gif") no-repeat center 18px #e84649; border:1px solid #e84649}
+		
+		
+		.xf li.li6:hover a{ color:#FFF}
+		
+		
+	.tencent {
+	position: absolute;
+	left: -218px;
+	top: 0px;
+	width: 216px;
+	height: 70px;
+	display:none;
+	
+	background-color: #e84649;
+	
+	-moz-border-radius: 5px;      /* Gecko browsers */
+    -webkit-border-radius: 5px;   /* Webkit browsers */
+    border-radius:5px;   
+	
+	
+}
+
+
+.tencent  span{ display:block; padding-left:25px; background:url("telb.png") no-repeat 15px center; height:70px; line-height:70px; font-size:22px; font-weight:bold; color:#FFF;         }
+
+		
+		
+		

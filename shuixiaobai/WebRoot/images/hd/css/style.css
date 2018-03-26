@@ -1,0 +1,399 @@
+.header .wrapper{
+	position: relative; height: 110px;
+}
+.header .logo{
+	height: 50px; position: absolute;
+	top: 20px;
+}
+.header .logo a,
+.header .logo h4{
+	float: left;
+}
+.header .logo h4{
+	line-height: 50px; font-size: 18px; color: #777;
+	border-left: 1px solid #e5e5e5; padding-left: 20px;
+	margin-left: 20px;
+}
+.header .tel{
+	position: absolute; height: 25px;
+	right: 0; top: 15px;
+}
+.header .tel li{
+	height: 18px; float: left; margin-left: 20px;
+}
+.header .tel li img,
+.header .tel li span{
+	float: left;
+}
+.header .tel li span{
+	line-height: 18px; font-size: 16px;
+	color: #777; margin-left: 10px;
+}
+.header .nav{
+	position: absolute; right: 0;
+	bottom: 0;  height: 50px;
+}
+.header .nav li{
+	display: inline;
+}
+.header .nav li a{
+	display: inline-block; position: relative;
+	line-height: 48px; font-size: 18px; color: #777;
+	height: 48px; border-bottom: 2px solid #fff;
+	padding: 0 15px; margin-left: 40px;
+}
+.header .nav li a em{
+	width: 7px; height: 7px;
+	background: url("../imgs/ico17.png") no-repeat;
+	position: absolute;
+	top: 30px; right: 0px;
+}
+.header .nav li.selected a,
+.header .nav li a:hover{
+	border-bottom: 2px solid #f04c53;
+}
+.header .tel li{
+	display: inline;
+}
+.wrapper{
+	width: 1200px; margin: 0 auto;
+}
+.ui-head{
+	text-align: center; padding-top: 60px;         
+}
+.ui-head h2{
+	font-size: 30px; line-height: 60px;
+	font-weight: bold;
+}
+.ui-head h2 span{
+	color: #f04c53;
+}
+.ui-head h4{
+	font-size: 14px; color: #999;
+}
+.h-banner{
+	background: url("../imgs/img01.jpg") no-repeat center; margin-top:110px;
+}
+.h-banner .wrapper{
+	height: 460px; position: relative;
+}
+.h-banner .txt{
+	position: absolute; left:50px;
+	width: 460px; top: 140px;
+}
+.h-banner .txt h4{
+	font-size: 24px; color: #fff;
+}
+.h-banner .txt h5{
+	font-size: 18px; color: #fff; margin-bottom: 3px;
+}
+.h-banner .txt h5 span{
+	color: #f04c53;  font-weight: bold;
+}
+.h-banner .txt a{
+	width: 196px; height: 40px;
+	background-color: #e94c51;
+	text-align: center; line-height: 40px;
+	margin-top: 20px;
+	display: block; border-radius: 20px;
+	font-size: 14px; color: #fff;
+}
+.h-banner .txt a:hover{
+	background-color: #f03238;
+}
+.h-banner .txt img{
+	position: absolute; right: 0; top: 8px; border-radius:5px;
+}
+.h-banner .form{
+	position: absolute; right: 0;
+	width: 280px; height: 300px; top: 50%; margin-top: -168px;
+	padding: 36px 40px 0; border-radius: 5px;
+	background-color: #fff;
+}
+.h-banner .form h5{
+	line-height: 30px; font-size: 16px; color: #999;
+}
+.h-banner .form h4{
+	font-size: 16px; color: #333;
+}
+.h-banner .form ul{
+	margin-top: 15px;
+}
+.h-banner .form ul li{
+	height: 48px; margin-bottom: 10px;
+}
+.h-banner .form ul li .tx{
+	border: 1px solid #e7e7e7; border-radius: 3px;
+	height: 48px; width: 262px;
+	background-color: #f7f7f7;
+	padding-left: 16px; 
+	font-size: 14px; color: #333;
+}
+.h-banner .form .btn{
+	width: 100%; height: 48px; background-color: #56aedc;
+	border: 0; color: #fff; font-size: 14px;
+	border-radius: 3px; cursor: pointer;
+}
+.h-banner .form .btn:hover{
+	background-color: #35aae7;
+}
+.h-banner .form h6{
+	line-height: 50px; font-size: 12px; color: #999;
+}
+.h-page01{
+	position: relative;
+}
+.h-page01 .img-bg{
+	bottom: 0; left: 0; right: 0;
+	position: absolute; z-index: 8;
+	margin: 0 auto;
+}
+.h-page01 .wrapper{
+	height: 920px; position: relative;
+}
+.h-page01 ul{
+	margin-top: 160px;
+}
+.h-page01 ul li{
+	padding-left: 62px; position: relative; margin-bottom: 42px;
+}
+.h-page01 ul li span{
+	width: 50px; height: 50px;
+	line-height: 50px; text-align: center;
+	background-color: #56aedc;
+	font-size: 24px; color: #fff;
+	font-family: impact;
+	position: absolute;
+	left: 0; top: 0;
+}
+.h-page01 ul li h3{
+	font-size: 20px; color: #333;
+	position: relative; top: -5px;
+}
+.h-page01 ul li p{
+	font-size: 14px; color: #999; margin-top: 2px;
+	line-height: 24px;
+}
+.h-page01 .img{
+	position: absolute; top: 210px;
+	width: 332px; left: 50%; margin-left: -166px;
+}
+.h-page01 .foott{
+	position: absolute; bottom: 105px; color: #fff;
+	left: 210px; z-index: 99;
+}
+.h-page01 .foott h4{
+	font-size: 20px; font-weight: bold; margin-bottom: 12px;
+}
+.h-page01 .foott p{
+	font-size: 16px;
+	line-height: 24px;
+}
+.h-page02{
+	height: 565px; background: url("../imgs/img02.jpg") no-repeat bottom center #f4f4f4;
+}
+.h-page02 .body{
+	margin-top: 60px;
+}
+.h-page02 .body ul{
+	height: 215px; 
+}
+.h-page02 .body ul li{
+	width: 490px; height: 135px;
+	background-color: #fff;
+	padding: 40px; margin: 0 15px;
+	float: left;
+}
+.h-page02 .body ul li:hover,
+.h-page02 .body ul li.on{
+	background-color: #56aedc;
+}
+.h-page02 .body ul li .img{
+	float: left;
+}
+.h-page02 .body ul li .img img{
+	width: 135px; height: 135px;
+	display: block;
+}
+.h-page02 .body ul li .txt{
+	width: 340px;
+	float: right;
+}
+.h-page02 .body ul li .txt h4{
+	font-size: 20px; color: #333; margin-top: -5px;
+}
+.h-page02 .body ul li .txt p{
+	font-size: 14px; color: #666; margin-top: 10px;
+	line-height: 23px;
+}
+.h-page02 .body ul li:hover .txt h4,
+.h-page02 .body ul li:hover .txt h5,
+.h-page02 .body ul li:hover .txt p,
+.h-page02 .body ul li.on .txt h4,
+.h-page02 .body ul li.on .txt h5,
+.h-page02 .body ul li.on .txt p{
+	color: #fff;
+}
+.h-page02 .body ul li .txt h5{
+	font-size: 14px; color: #56aedc; margin-top: 15px;
+}
+.h-page03 .body{
+	margin: 60px 0 50px;
+}
+.h-page03 .body ul{
+	height: 170px;
+}
+.h-page03 .body ul li{
+	width: 25%; float: left; text-align: center;
+}
+.h-page03 .body ul li img{
+	display: inline-block;  margin-bottom: 3px;
+}
+.h-page03 .body ul li p{
+	font-size: 14px; color: #666; line-height: 24px;
+}
+.h-page03 .foott{
+	margin: 55px 0 80px; text-align: center;
+}
+.h-page03 .foott a{
+	width: 132px; height: 48px;
+	background-color: #f04c53;
+	display: inline-block;
+	line-height: 48px; color: #fff;
+	font-size: 14px; border-radius: 3px;
+}
+.h-page03 .foott a:hover{
+	background-color: #f02831;
+}
+.h-page04{
+	height: 415px; 
+	background: url("../imgs/ico09.png") no-repeat top center #56aedc;
+	/*background-color: #56aedc;*/
+	position: relative;
+}
+
+.h-page04 .ui-head h4,
+.h-page04 .ui-head h2{
+	color: #fff;
+}
+.h-page04 .ui-head h2 span{
+	color: #ffff00; 
+}
+.h-page04 .ui-head h4 span{
+	font-weight: bold;
+}
+.h-page04 .body{
+	height: 110px; margin-top: 55px;
+}
+.h-page04 .body .qr-code,
+.h-page04 .body .tel{
+	width: 49.5%; float: left; text-align: center;
+}
+.h-page04 .body .qr-code{
+	border-right: 1px dashed #fff;
+}
+.h-page04 .body .qr-code img,
+.h-page04 .body .qr-code p,
+.h-page04 .body .tel a,
+.h-page04 .body .tel h4{
+	display: inline-block;
+}
+.h-page04 .body .qr-code p{
+	font-size: 18px; color: #fff; text-align: left;
+	margin-left: 20px; line-height: 30px;
+	position: relative; top: -25px;
+}
+.h-page04 .body .qr-code p span{
+	font-weight: bold; color: #ffff00;
+}
+.h-page04 .body .tel a{
+	width: 166px; height: 48px;
+	border: 1px solid #fff; font-size: 14px;
+	line-height: 48px; text-align: center;
+	color: #fff; border-radius: 3px;
+}
+.h-page04 .body .tel a:hover{
+	background-color: #fff;
+	color: #56aedc;
+}
+.h-page04 .body .tel{
+	padding-top: 3px;
+}
+.h-page04 .body .tel h4{
+	color: #fff; text-align: left; margin-left: 22px;
+	font-size: 24px; position: relative; top: 15px;
+}
+.h-page04 .body .tel h4 span{
+	font-size: 14px;
+}
+.footer{
+	height: 110px; padding: 55px 0;
+	background-color: #2b2b2b;
+}
+.footer dl{
+	float: left;  color: #777;
+	border-right: 1px solid #222;
+	height: 110px;
+}
+.footer .logo{
+	width: 180px; padding-right: 40px;
+}
+.footer .logo p{
+	font-size: 14px; margin-top: 5px;
+	line-height: 18px; text-align: center;
+	padding: 0 10px;
+}
+.footer .nav{
+	width: 240px; padding-right: 32px;
+}
+.footer .nav dd{
+	float: left;  margin-left: 35px; 
+}
+.footer .contact dd,
+.footer .nav dd{
+	position: relative;
+	top: -10px;
+}
+.footer .nav dd a,
+.footer .contact dd {
+	font-size: 14px; color: #777;
+	line-height: 31px;
+}
+.footer .nav dd a:hover{
+	color: #fff;
+}
+.footer .contact{
+	padding: 0 35px 0 35px;	
+}
+.footer .contact span{
+	margin-left: 30px;
+}
+.footer .tel{
+	text-align: center;
+	width: 285px;
+	border-right: 0;
+}
+.footer .tel h4{
+	font-size: 16px; 
+}
+.footer .tel h3{
+	font-size: 28px;  font-family: "楷体";
+	font-weight: bold;
+}
+.footer .tel ul{
+	margin-top: 5px;
+}
+.footer .tel li{
+	display: inline; 
+}
+.footer .tel li a{
+	display: inline-block; margin: 0 3px;
+}
+.copyright{
+	height: 50px; background-color: #222; text-align: center;
+}
+.copyright p{
+	text-align: center; line-height: 50px;
+	color: #fff; font-size: 14px; color: #777;
+}
+.h-page04 .body .qr-code img{ border-radius:5px;}

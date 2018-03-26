@@ -1,0 +1,282 @@
+/*公共----高级搜索弹出窗口*/
+.ui-window-tip {
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 9999;
+    background: rgba(77, 77, 77, 0.53)
+}
+
+.ui-window-tip .ui-win {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 500px;
+    position: relative
+}
+
+.ui-window-tip .ui-win-search {
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 500px;
+    position: relative;
+    border: 3px solid #666
+}
+
+.ui-window-tip .ui-win img {
+    width: 100%;
+    display: block
+}
+
+.ui-window-tip .ui-win-title {
+    height: 45px;
+    font-size: 16px;
+    line-height: 46px;
+    border-bottom: 1px solid #e1e1e1;
+    color: #4d4d4d;
+    text-indent: 20px;
+    background-color: #f9f9f9;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fcfcfc), to(#f9f9f9));
+    background: -moz-linear-gradient(top, #fcfcfc, #f9f9f9);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfc', endColorstr='#f9f9f9');
+    background: -o-linear-gradient(top, #fcfcfc, #f9f9f9);
+    background: -ms-linear-gradient(top, #fcfcfc, #f9f9f9);
+    background: linear-gradient(top, #fcfcfc, #f9f9f9)
+}
+
+.ui-window-tip .ui-win-main {
+    background: #fff;
+    padding: 18px 26px;
+    overflow: hidden;
+    z-index: 20
+}
+
+.ui-window-tip .ui-win-p {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+    width: 30%;
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    text-align: right
+}
+
+.ui-window-tip .ui-win-block {
+    float: left;
+    line-height: 30px;
+    width: 70%
+}
+
+.ui-window-tip .ui-input-tip {
+    margin-top: 5px;
+    height: 20px;
+    line-height: 20px
+}
+
+.ui-window-tip .ui-win-p span {
+    display: block;
+    width: 10px;
+    float: left;
+    height: 20px;
+    line-height: 24px
+}
+
+.ui-win-content {
+    float: left;
+    width: 100%;
+    margin-top: 5px
+}
+
+.ui-win-content .ui-win-result-p {
+    margin: 25px 0;
+    padding-left: 15%;
+    height: 59px;
+    line-height: 59px;
+    font-size: 2em;
+    font-weight: bold;
+    color: #666;
+}
+
+.ui-win-content .ui-sucess-result {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.ui-win-content .ui-sucess-qrcode {
+    text-align: center;
+    width: auto;
+    margin: 10px 0;
+}
+.ui-win-content .ui-sucess-new{
+    text-align: center;width: auto;margin: 10px 0;
+}
+.ui-win-content .bj-btn-apply {
+    display: inline-block;
+    height: 51px;
+    width: 141px;
+    background:#f04c53;
+    margin: 10px 0;
+	color:#FFF;
+	font-size:16px;
+	cursor:pointer;
+	border:none;
+	
+	 -moz-border-radius: 5px;      /* Gecko browsers */
+    -webkit-border-radius: 5px;   /* Webkit browsers */
+    border-radius:5px;  
+	
+}
+
+.ui-win-s-infor {
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 100
+}
+
+.ui-win-s-infor p {
+    color: #666;
+    font-size: 12px
+}
+
+.ui-win-s-infor a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+    line-height: 30px;
+    background: rgba(76, 76, 76, .5);
+    width: 100%
+}
+
+.ui-window-tip .ui-win-close-i {
+    position: absolute;
+    right: -25px;
+    top: -25px;
+    width: 50px;
+    height: 50px;
+    background: url("http://www.hcx123.com/images/img/bicon.gif") no-repeat left top;
+    cursor: pointer;
+    background-position: 0 -91px
+}
+
+.ui-window-tip .ui-win-close {
+    color: #999;
+    cursor: pointer;
+    display: block;
+    font-family: tahoma;
+    font-size: 24px;
+    font-weight: 700;
+    height: 18px;
+    line-height: 14px;
+    position: absolute;
+    right: 12px;
+    text-decoration: none;
+    top: 12px;
+    z-index: 10
+}
+
+.ui-window-tip .ui-win-close:hover {
+    color: #666
+}
+
+.ui-window-tip .ui-win-result {
+    display: none;
+    background: #fff;
+    padding: 18px 26px;
+    overflow: hidden;
+    height: 465px
+}
+
+.ui-window-tip .ui-win-load {
+    display: none;
+    background: #fff;
+    padding: 18px 26px;
+    overflow: hidden;
+    height: 429px;
+    background: rgba(255, 255, 255, .5) url("http://www.hcx123.com/images/img/loading.gif") no-repeat center 40%;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 426px;
+    z-index: 999
+}
+
+.bj-icon-s {
+    background: url("http://www.hcx123.com/images/img/bt-sure.gif") no-repeat left top;
+    height: 59px;
+    width: 59px;
+    display: inline-block;
+    float: left
+}
+
+.bj-icon-l {
+    background: url("http://www.hcx123.com/images/img/bt-lose.gif") no-repeat left top;
+    height: 59px;
+    width: 59px;
+    display: inline-block;
+    float: left
+}
+
+.ui-sure-btn {
+    background: url("http://www.hcx123.com/images/img/ui-query-btn.gif") no-repeat left top;
+    background-position: 0 -51px;
+    display: block;
+    margin: 0 auto;
+    height: 52px;
+    width: 141px;
+    cursor: pointer
+}
+
+.upload-btns {
+    height: 34px;
+    width: 224px;
+    display: inline-block;
+    float: left
+}
+
+
+.ui-win-search input[type="text"] {
+    display: inline-block;
+    margin-bottom: 0px;
+    vertical-align: middle;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    color: #555;
+    font-size: 12px;
+    height: 30px;
+    line-height: 20px;
+    padding: 8px 6px;
+    width: 210px;
+    border-radius: 3px;
+}
+
+
+.textCenter {
+    text-align: center;
+}
+.mb20 {
+    margin-bottom: 20px;
+}
+.f16 {
+    font-size: 16px; color:#333333;
+}
+
+
+
+
+
+
+
+

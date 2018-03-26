@@ -1,0 +1,114 @@
+@charset "utf-8";
+/*****************全屏图片公用**********************/
+
+.minwidth {
+    height: auto;
+    margin: 0 auto;
+    width: 1180px;
+    overflow: hidden;
+}
+
+.topBtn {
+    margin-top: 496px;
+    margin-left: 368px;
+}
+
+.topBtn1, .topBtn2 {
+    display: inline-block;
+    width: 186px;
+    height: 40px;
+    border-radius: 4px;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.topBtn1 {
+    background: #3c9ad9;
+    margin-right: 66px;
+}
+
+
+.topBtn2 {
+    background: #f04a4a;
+}
+
+
+.zcsczl ul .liiu{ line-height:1.6em; height:170px;}
+.zcsczl ul  .di5{ height:170px; line-height:170px;}
+
+
+.zcsczl ul .liiu span{ margin-top:60px;}
+.zcsczl ul .liiu a{ float:right; display:block; width:487px; margin-top:10px;}
+
+
+.zcsczl ul .liiu::before{ height:170px;}
+
+.zcsczl .gzgd li{ line-height:40px;}
+	
+.hm	 {margin-top: 60px;
+margin-bottom: 70px; text-align:center}
+
+.hm	a{ display: inline-block;
+width: 184px;
+text-align: center;
+height: 50px;
+line-height: 50px;
+color: #FFF;
+font-size: 16px;
+background: #f04c53;}
+
+.zcsczl{ display:block}
+
+.zcgz{ margin-bottom:80px;}	
+
+.zcgz ul li{ width:393px; float:left; text-align:center}
+
+.zcgz ul li .zjiapic { text-align:center;  margin-bottom:25px;}
+
+.zcgz ul li .zjiapic a{ display:inline-block; width:120px; height:120px;}
+
+.zcgz ul li .zjiapic img{ width:120px; height:120px; -moz-border-radius: 50%;      /* Gecko browsers */
+    -webkit-border-radius: 50%;    /* Webkit browsers */
+    border-radius:50%;}
+	
+	 
+.zcgz ul li h2{ margin-bottom:10px; color:#333333; font-size:18px;}
+
+.zcgz ul li h2 a{ color:#444444; font-size:22px; font-weight:normal}
+
+.zcgz ul li h3{ font-weight:normal; margin-bottom:20px; color:#777777; font-size:14px;padding-left:40px; padding-right:40px; }
+
+.zcgz ul li p{ font-size:14px; color:#333333; line-height:1.8em; padding-left:40px; padding-right:40px; text-align:left; background:url("dian.jpg") no-repeat 30px 10px }
+
+.zcgz ul li p font{ color:#999999}
+
+.zcgz ul li .faren{ padding-left:100px;background:url("dian.jpg") no-repeat 90px 10px} 
+
+
+.bgfo{ background:#f0f0f0}
+
+
+.zfben{ text-align:center; margin-top:-10px;}
+
+.zfben span{ display:inline-block; margin-left:24px; margin-right:24px; height:28px; line-height:28px; color:#333333; font-size:14px;}
+
+
+.zfben span font{ display:inline-block; height:28px; width:28px; text-align:center; line-height:28px; margin-right:6px; color:#FFF; font-size:14px; background:#56aedc; -moz-border-radius: 50%;      /* Gecko browsers */
+    -webkit-border-radius: 50%;   /* Webkit browsers */
+    border-radius:50%;            /* W3C syntax */}
+
+.zzao{ padding-left:40px; padding-right:40px; margin-bottom:70px; margin-top:40px;}
+
+.zzao li{ float:left; width:25%; text-align:center; height:310px; line-height:310px;}
+
+.zzao li img{ vertical-align:middle}
+
+.clear{ clear:both}
+
+.zcsczl .ai{padding:0 40px 0 40px;margin:40px 0 70px 0;border:none;background:#f0f0f0;}
+
+.zcsczl .ai li{float:left;width:25%;text-align:center;height:310px;line-height:310px;border:none;}
+
+.zcsczl .ai li img{vertical-align:middle;}

@@ -1,0 +1,40 @@
+@charset "utf-8";
+/*****************全屏图片公用**********************/
+
+
+.chukt{ width:1180px; margin:0 auto; padding-top:80px; padding-bottom:80px;}
+
+.chukt h2{ text-align:center; margin-bottom:50px; color:#444444; font-size:30px;}
+
+
+.ctitle{ text-align:center; height:60px; line-height:60px; border-bottom:1px solid #cccccc; margin-bottom:60px;}
+
+
+.ctitle a{ display:inline-block; padding-left:40px; padding-right:40px; height:55px; line-height:55px; color:#444444; font-size:18px; margin-left:25px; margin-right:25px; }
+
+.ctitle .cur{border-bottom:5px solid #f04c53;}
+
+
+.chukt dl{ width:50%; float:left; margin-bottom:50px;}
+.chukt dl dt{ padding-right:30px; }
+
+.chukt dl dd{ padding-right:30px;}
+
+.chukt .cri:before{ display:table; content:""; width:30px; height:124px; border-left:1px dashed #dadada; float:left}
+
+.chukt .cri dt{ padding-right:0px;}
+
+.chukt .cri dd{ padding-right:0px;}
+
+.chukt dl dt a{ color:#333333; font-size:18px;}
+
+
+.chukt dl dd p{ color:#666666; font-size:16px; margin-top:15px; line-height:1.8em; margin-bottom:10px;}
+
+.chukt dl dd h3 a{ color:#f04c53; font-size:16px;}
+
+.zxun{ text-align:center;}
+.zxun a{ color:#FFF; font-size:22px; background:#f04c53; display:inline-block; width:210px; height:50px; line-height:50px; text-align:center;-moz-border-radius: 5px;      /* Gecko browsers */
+    -webkit-border-radius: 5px;   /* Webkit browsers */
+    border-radius:5px; }
+.zxun a em{display:inline-block; vertical-align:middle; background:url("wweixin.gif") no-repeat; width:30px; height:30px; margin-right:6px;      }
